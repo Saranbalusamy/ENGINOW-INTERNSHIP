@@ -1,0 +1,58 @@
+# =========================
+# Ignore old project
+# =========================
+PROJECT-1/
+
+# =========================
+# Datasets & large files
+# =========================
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.tar.gz
+data/
+dataset/
+
+# =========================
+# Trained ML models
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.pt
+models/
+
+# =========================
+# Python cache & logs
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
